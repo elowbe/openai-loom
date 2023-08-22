@@ -1,0 +1,6 @@
+expose_input,,(-770.0,-250.0),,text,,[],,Text,,0,,0,,[]
+script,,(-38.0,64.0),,[115, 112, 108, 105, 116, 32, 61, 32, 116, 101, 120, 116, 46, 115, 112, 108, 105, 116, 40, 100, 101, 108, 105, 109, 41, 59],,false,,-text,-delim,split,,,false
+expose_input,,(-676.0,448.0),,delim,,[],,Text,,0,,0,,[]
+expose_output,,(687.0,250.0),,split,,false,,Any
+connections:1:text>0:terminal0,1:delim>2:terminal0,3:terminal0>1:split,
+.port=80
